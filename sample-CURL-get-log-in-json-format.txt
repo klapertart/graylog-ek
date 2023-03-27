@@ -1,0 +1,7 @@
+curl -X "GET" "http://localhost:9000/api/search/universal/relative?query=source%3ADESKTOP-S9I46UA&range=3600&decorate=true" \
+     -H 'Accept: application/json' \
+     -u 'admin:tricadatritronik123'
+
+**
+source = host/sumber log.
+range = relative waktu dalam detik (dari skarang ke belakang), misalnya 3600 berarti 1 jam ke belakang.
